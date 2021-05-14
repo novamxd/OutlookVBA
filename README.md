@@ -9,6 +9,7 @@ This script is heavily based off of the one located here (https://www.extendoffi
 2. Open VBA in Outlook using Alt + F11
 3. Insert a new Module using Insert -> Module
 4. Paste this file into code editor
-5. Select emails you want to process in Outlook with your mouse
-6. Press the ▶️ button in the toolbar or F5 on your keyboard
-7. A message will appear saying "All Done!" when it is finished
+5. Open Tools -> References, find "Microsoft Scripting Runtime" and make sure it's checked
+6. Select emails you want to process in Outlook with your mouse
+7. Press the ▶️ button in the toolbar or F5 on your keyboard
+8. A message will appear saying "All Done!" when it is finished
