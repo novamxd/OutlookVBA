@@ -52,6 +52,9 @@ Public Sub SaveAttachments()
     'clear our global reference
     Set xFso = Nothing
 
+    'let the user know
+    MsgBox "All Done!", vbOKOnly, "DownloadAttachments.vba"
+
 End Sub
 
 ''' <summary>
